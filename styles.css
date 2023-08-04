@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #bad0e7;
+}
+
+h1 {
+  text-align: start;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+/* ... (ваш существующий код) */
+
+.modal {
+  display: flex;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.modal-content {
+  background-color: white;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+}
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#contactForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#name {
+  width: 40%;
+}
+#phone {
+  width: 40%;
+}
+
+#btn {
+  width: 40%;
+  background-color: green;
+}
+#newName {
+  width: 60%;
+}
+#newPhone {
+  width: 60%;
+}
+.edit {
+  background-color: green;
+}
+.delete {
+  background-color: green;
+}
+#saveChanges {
+  background-color: green;
+}
